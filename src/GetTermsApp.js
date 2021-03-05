@@ -147,6 +147,7 @@ class GetTermsApp extends React.Component {
     console.log(sortedTerms);
     return (
       <div id="overall" className="position-trbl-0 overflow-hidden">
+        <div>Small React app with a textbox for you to paste Japanese text into. What's returned is a list of Kanji blobs (could be terms), ordered by frequency of appearance.</div>
         Paste full text here:
         <textarea
           id="doc"
