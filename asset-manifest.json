@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Get-Kanji-Terms/static/css/main.c2c913a0.chunk.css",
+    "main.css": "/Get-Kanji-Terms/static/css/main.2cbea330.chunk.css",
     "main.js": "/Get-Kanji-Terms/static/js/main.722cfbbb.chunk.js",
     "main.js.map": "/Get-Kanji-Terms/static/js/main.722cfbbb.chunk.js.map",
     "runtime-main.js": "/Get-Kanji-Terms/static/js/runtime-main.391f1006.js",
@@ -10,14 +10,14 @@
     "static/js/3.63539d59.chunk.js": "/Get-Kanji-Terms/static/js/3.63539d59.chunk.js",
     "static/js/3.63539d59.chunk.js.map": "/Get-Kanji-Terms/static/js/3.63539d59.chunk.js.map",
     "index.html": "/Get-Kanji-Terms/index.html",
-    "static/css/main.c2c913a0.chunk.css.map": "/Get-Kanji-Terms/static/css/main.c2c913a0.chunk.css.map",
+    "static/css/main.2cbea330.chunk.css.map": "/Get-Kanji-Terms/static/css/main.2cbea330.chunk.css.map",
     "static/js/2.f012dae3.chunk.js.LICENSE.txt": "/Get-Kanji-Terms/static/js/2.f012dae3.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Get-Kanji-Terms/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.391f1006.js",
     "static/js/2.f012dae3.chunk.js",
-    "static/css/main.c2c913a0.chunk.css",
+    "static/css/main.2cbea330.chunk.css",
     "static/js/main.722cfbbb.chunk.js"
   ]
 }
