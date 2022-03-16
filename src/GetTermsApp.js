@@ -115,6 +115,7 @@ class GetTermsApp extends React.Component {
 
   render() {
     const sortedTerms = this.state.sortedTerms;
+    const termCounts = this.state.termCounts;
     const numTerms = sortedTerms.length;
 
     const fullText = this.state.fullText;
@@ -173,6 +174,7 @@ class GetTermsApp extends React.Component {
               {twoOrMoreKanjiTerms.length}): <br />
               {twoOrMoreKanjiTerms.map((term, index) => (
                 <span key={index}>
+                  <span className="noselect">{termCounts[sortedTerms.indexOf(term)]} </span>
                   {term}
                   <br />
                 </span>
@@ -184,6 +186,7 @@ class GetTermsApp extends React.Component {
               1 kanji terms (count: {oneKanjiTerms.length}): <br />
               {oneKanjiTerms.map((term, index) => (
                 <span key={index}>
+                  <span className="noselect">{termCounts[sortedTerms.indexOf(term)]} </span>
                   {term}
                   <br />
                 </span>
@@ -195,6 +198,7 @@ class GetTermsApp extends React.Component {
               1 kanji context (count: {oneKanjiContext.length}): <br />
               {oneKanjiContext.map((term, index) => (
                 <span key={index}>
+                  <span className="noselect">{termCounts[sortedTerms.indexOf(term)]} </span>
                   {term}
                   <br />
                 </span>
